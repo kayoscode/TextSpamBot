@@ -1,0 +1,3 @@
+C:/Users/Bryce/Documents/TextSpamBot/build/CMakeFiles/SpamBot.dir
+C:/Users/Bryce/Documents/TextSpamBot/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Bryce/Documents/TextSpamBot/build/CMakeFiles/ZERO_CHECK.dir

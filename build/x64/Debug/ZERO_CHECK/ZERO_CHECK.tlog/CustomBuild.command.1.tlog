@@ -1,0 +1,10 @@
+^C:\USERS\BRYCE\DOCUMENTS\TEXTSPAMBOT\BUILD\CMAKEFILES\632667C08A732FD9BB47BE33B2FA6B6A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Bryce/Documents/TextSpamBot -BC:/Users/Bryce/Documents/TextSpamBot/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Bryce/Documents/TextSpamBot/build/SpamBot.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
